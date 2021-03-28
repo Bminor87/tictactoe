@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tictactoe/static/css/main.7c5c11ed.chunk.css",
-    "main.js": "/tictactoe/static/js/main.0679a1ab.chunk.js",
-    "main.js.map": "/tictactoe/static/js/main.0679a1ab.chunk.js.map",
+    "main.css": "/tictactoe/static/css/main.f07a86cb.chunk.css",
+    "main.js": "/tictactoe/static/js/main.48b5cd77.chunk.js",
+    "main.js.map": "/tictactoe/static/js/main.48b5cd77.chunk.js.map",
     "runtime-main.js": "/tictactoe/static/js/runtime-main.913dc4c2.js",
     "runtime-main.js.map": "/tictactoe/static/js/runtime-main.913dc4c2.js.map",
     "static/js/2.ddef826b.chunk.js": "/tictactoe/static/js/2.ddef826b.chunk.js",
     "static/js/2.ddef826b.chunk.js.map": "/tictactoe/static/js/2.ddef826b.chunk.js.map",
     "index.html": "/tictactoe/index.html",
-    "static/css/main.7c5c11ed.chunk.css.map": "/tictactoe/static/css/main.7c5c11ed.chunk.css.map",
+    "static/css/main.f07a86cb.chunk.css.map": "/tictactoe/static/css/main.f07a86cb.chunk.css.map",
     "static/js/2.ddef826b.chunk.js.LICENSE.txt": "/tictactoe/static/js/2.ddef826b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.913dc4c2.js",
     "static/js/2.ddef826b.chunk.js",
-    "static/css/main.7c5c11ed.chunk.css",
-    "static/js/main.0679a1ab.chunk.js"
+    "static/css/main.f07a86cb.chunk.css",
+    "static/js/main.48b5cd77.chunk.js"
   ]
 }
