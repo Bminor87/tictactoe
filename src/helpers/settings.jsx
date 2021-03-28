@@ -1,0 +1,1 @@
+export const max_squares = 25*25;
