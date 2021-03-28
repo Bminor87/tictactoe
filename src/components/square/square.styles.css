@@ -2,15 +2,15 @@
     background: #fff;
     border: 1px solid #999;
     float: left;
+    height: 32px;
+    line-height: 24px;
+    width: 32px;
     font-size: 24px;
     font-weight: bold;
-    line-height: 34px;
-    height: 34px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
     cursor: pointer;
 }
 
@@ -24,4 +24,20 @@
 
 .square-winner {
     background: #88D888;
+}
+
+@media screen and (max-width: 901px) {
+    .square {
+        font-size: 16px;
+        line-height: 3.3vw;
+        height: 3.3vw;
+        width: 3.3vw;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .square {
+        font-size: 14px;
+        line-height: 14px;
+    }
 }

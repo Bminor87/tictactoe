@@ -89,8 +89,8 @@ class Game extends React.Component {
                 />
             </div>
             <div className="game-info">
-                <div>{ status }</div>
-                <ol>{ moves }</ol>
+                <div className={winner.winner ? 'status status-win' : 'status'}>{ status }</div>
+                <ul>{ moves.reverse() }</ul>
             </div>
         </div>
         );

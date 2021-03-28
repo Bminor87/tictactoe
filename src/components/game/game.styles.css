@@ -1,10 +1,20 @@
 .game {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
   
 .game-info {
     margin-left: 20px;
+}
+
+.status {
+    font-size: 32px;
+    width: 85%;
+    max-width: 640px;
+}
+
+.status-win {
+    background: #88D888;
 }
 
 .selected-step {
