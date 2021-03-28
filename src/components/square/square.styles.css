@@ -14,6 +14,10 @@
     cursor: pointer;
 }
 
+.square:hover {
+    background: #ddd;
+}
+
 .square-title {
     background: #999;
 }

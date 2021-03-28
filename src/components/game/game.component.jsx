@@ -42,6 +42,20 @@ class Game extends React.Component {
         });
     }
 
+    initGame = () => {
+        this.setState({
+            history: [{
+                squares: Array(max_squares).fill(null),
+                lastMove: {
+                    sign: null,
+                    to: null
+                }
+            }],
+            stepNumber: 0,
+            xIsNext: true,
+        });
+    }
+
     jumpTo = (step) => {
         this.setState({
             stepNumber: step,
@@ -90,6 +104,7 @@ class Game extends React.Component {
             </div>
             <div className="game-info">
                 <div className={winner.winner ? 'status status-win' : 'status'}>{ status }</div>
+                <button className="new-game" onClick={this.initGame}>Uusi Peli</button>
                 <ul>{ moves.reverse() }</ul>
             </div>
         </div>

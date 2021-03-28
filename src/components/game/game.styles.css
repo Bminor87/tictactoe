@@ -20,3 +20,8 @@
 .selected-step {
     font-weight: bold;
 }
+
+.new-game {
+    padding: 10px;
+    font-size: 24px;
+}
